@@ -196,6 +196,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("| ATTACK DONE | + "| ERROR CODE: + responseCode + " | THREAD: " + this.seq);
+        System.out.println("| ATTACK DONE | "+ "| ERROR CODE: + responseCode + | THREAD:  |" + this.seq);
     }
 }
